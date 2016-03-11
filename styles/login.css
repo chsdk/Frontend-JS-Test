@@ -1,0 +1,95 @@
+body{
+	font-family: Calibri, sans-serif;
+	width:1280px;
+}
+
+#login-popup {
+	width: 370px;
+	height: 290px;
+	margin: 15% auto;
+}
+
+#login-container {
+	width: 370px;
+	height: 250px;
+	border : 1px solid silver;
+	border-radius:5px;
+	box-shadow: 2px 2px 1px #D8D8D8;
+	-webkit-box-shadow: 2px 2px 1px #D8D8D8;
+	-moz-box-shadow: 2px 2px 1px #D8D8D8;
+	margin-bottom: 10px;
+	z-index: 1000;
+}
+
+#login-banner {
+	width: 370px;
+	height: 70px;
+	background-image: url("../images/login-banner.png");
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#login-logo {
+	margin-left: 12px;
+	margin-top: 12px;
+}
+
+#login-form {
+	padding-top: 20px;
+	width: 100%;
+}
+
+#input-table {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.input-label {
+	text-align: right;
+	width: 20%;
+}
+
+#input-table input {
+	height: 20px;
+	padding-left: 10px;
+	border: 1px solid silver;
+	border-radius: 3px;
+	width: 90%;
+}
+
+#login-form label {
+	display:inline-block;
+	vertical-align:middle;
+	margin-left: 25%;
+	font-size: 12px;
+	cursor:pointer;
+}
+
+#login-form label input{
+	display:inline-block;
+	vertical-align:middle;
+}
+#login-button {
+	float: right;
+	text-decoration: none;
+	display: block;
+	margin-right: 10%; 
+	margin-top : 5px; 
+	background-color : #fbfbfb;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	font-family: Calibri, sans-serif;
+	border: 1px solid #E4E4E4;
+	border-radius: 4px; 
+	padding: 8px;
+	cursor: pointer;
+}
+#login-button:hover{
+	background-color:#81b222;
+	color:#fbfbfb;
+}
+#new-password{
+	font-weight: bold;
+	cursor:pointer;
+}
